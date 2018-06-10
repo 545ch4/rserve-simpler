@@ -1,10 +1,6 @@
 source "http://rubygems.org"
-# Add dependencies required to use your gem here.
-# Example:
-#   gem "activesupport", ">= 2.3.5"
-
 # right now, using initialize code, so it is very version specific
-gem "rserve-client", "~>0.3.0"  
+gem "rserve-client", ">=0.3.0"  
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
