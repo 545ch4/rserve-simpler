@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Simple Rserve interface tool to make using Rserve more convenient and easier to implement.}
   s.test_files = [
     "spec/rserve/simpler_spec.rb",
     "spec/spec_helper.rb"
