@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Prince"]
   s.date = %q{2011-02-14}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{interface layered on top of rserve-client gem for interacting with R}
   s.email = %q{jtprince@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Simple Rserve interface tool to make using Rserve more convenient and easier to implement.}
+  s.summary = %q{simple interface for interacting with R through Rserve}
   s.test_files = [
     "spec/rserve/simpler_spec.rb",
     "spec/spec_helper.rb"
